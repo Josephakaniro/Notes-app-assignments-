@@ -29,16 +29,27 @@ The CLI commands were made with the typer module so to run it :
 python -m app.cli --help
 
 *create a folder
+
   python -m app.cli new-folder --folder-name "Work"
+
 *create a new note 
+
   python -m app.cli new-note --title "Meeting" --folder-name "Work" --body "Project kickoff at 10 AM"
+  
 *search for note 
+
   python -m app.cli search-note --title "Meeting"
+  
 *import json or csv 
+
   python -m app.cli import_json_notes --file-path"    "
+  
   python -m app.cli import_csv_notes --file-path"    "
+  
 *analytics
+
   python -m app.cli folder-analytics
+  
   python -m app.cli note-analytics
 
  
